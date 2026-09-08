@@ -22,12 +22,10 @@ function Footer() {
           <h4 className="text-white text-sm tracking-wide mb-4">Explore</h4>
           <ul className="space-y-2 text-sm">
             {[
-              ["Get it sold", "#get-it-sold"],
+              ["Home", "#home"],
               ["Listings", "#listings"],
-              ["Gallery", "#gallery"],
-              ["Services", "#services"],
-              ["About", "#about"],
-              ["Contact", "#contact"],
+              ["Let's Move", "#move"],
+              ["About Us", "#about"],
             ].map(([l, h]) => (
               <li key={h}>
                 <a href={h} className="hover:text-white">
